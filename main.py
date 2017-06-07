@@ -153,7 +153,7 @@ def add_friend():
         # Adding a new friend to my friends list
         friends.append(new_friend)
 
-        print new_friend.salutation + new_friend.name + " is now your friend"
+        print new_friend.salutation + " " + new_friend.name + " is now your friend"
 
     else:
 
@@ -331,7 +331,7 @@ if existing == 'N':
 
     spy.rating = float(raw_input("Please enter your spy rating.\n"))
 
-    if 12 < spy.age < 50 and 0 <= spy.rating <= 5.0:
+    if 12 < spy.age < 50 and 0.0 <= spy.rating <= 5.0:
 
         print "Welcome to the SpyNet!"
 
